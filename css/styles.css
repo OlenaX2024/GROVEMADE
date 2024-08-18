@@ -90,17 +90,54 @@ button {
 .nav-items.a {
   justify-content: end;
 }
-
 .nav-link-logo {
   padding: 29px 160px;
   margin: auto;
 }
-.nav-logo {
+.nav-address-logo {
   font-style: normal;
-  /*margin-left: auto;*/
   padding-top: 29px;
 }
 .address-list {
   display: flex;
   gap: 40px;
+}
+.hero {
+  text-align: center;
+  width: 100%;
+  background-image: url(../Images/workplace.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-container {
+  padding: 193px 29px;
+  margin: 0 auto;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 1.1;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 28px;
+}
+.hero-btn {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  border-radius: none;
+  box-shadow: none;
 }
