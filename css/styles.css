@@ -59,6 +59,9 @@ button {
   padding-right: 15px;
   padding-left: 15px;
 }
+.nav-logo {
+  width: 100%;
+}
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -144,13 +147,15 @@ button {
 }
 .about {
   width: 100%;
+  margin-bottom: 120px;
 }
 .about-desing {
-  padding: 80px 430px;
+  width: 580px;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 23px;
+  margin: 80px auto;
 }
 .about-title-h2 {
   font-weight: 400;
@@ -179,6 +184,7 @@ button {
 .about-picture {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 13px;
 }
 .about-foto {
   display: flex;
@@ -198,4 +204,124 @@ button {
 }
 .about-list {
   margin: 0 auto;
+}
+.product {
+  width: 100%;
+}
+.product-container {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.product-title {
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 1.1;
+  text-align: center;
+  color: #000;
+}
+.product-text {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #a0a0a0;
+}
+.product-icon {
+  fill: black;
+  margin-bottom: 19px;
+}
+.product-shop {
+  margin-bottom: 100px;
+}
+.product-list {
+  display: flex;
+  gap: 25px;
+  padding: 0 62px;
+}
+.product-foto {
+  margin-bottom: 22px;
+}
+.product-title-h3 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  color: black;
+}
+.product-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.75;
+  letter-spacing: 0.06em;
+  color: black;
+}
+.inspiration {
+  text-align: center;
+  width: 100%;
+  background-image: url(../Images/office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 120px;
+}
+.inspiration-container {
+  padding: 181px;
+  margin: 0 auto;
+}
+.inspiration-title {
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.inspiration-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.inspiration-link {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.innovation {
+  width: 100%;
+}
+.innovation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.innovation-title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.06;
+  text-align: center;
+  color: #000;
+}
+.innovation-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #a0a0a0;
+}
+.innovation-picture {
+  margin: 0 auto;
+  margin-bottom: 42px;
 }
