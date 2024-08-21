@@ -325,3 +325,81 @@ button {
   margin: 0 auto;
   margin-bottom: 42px;
 }
+.team {
+  width: 100%;
+  margin-bottom: 105px;
+}
+.team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.team-title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.06;
+  text-align: center;
+  color: #000;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #a0a0a0;
+  width: 789px;
+}
+.team-picture {
+  margin-bottom: 100px;
+  padding-right: 37px;
+  padding-left: 37px;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.team-title {
+  margin-bottom: 44px;
+}
+.team-link {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  display: block;
+}
+.desing {
+  background-color: rgba(154, 168, 177, 1);
+  margin: 0 50px 40px;
+}
+.desing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  padding: 120px 145px;
+}
+.desing-title {
+font-weight: 400;
+font-size: 43px;
+line-height: 1.34884;
+text-align: center;
+color: #fff;
+}
+.desing-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  
+}
