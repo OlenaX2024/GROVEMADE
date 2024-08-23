@@ -194,6 +194,7 @@ button {
 }
 .about-img {
   margin-bottom: 51px;
+  width: 657px;
 }
 .about-title-h3 {
   font-weight: 400;
@@ -245,7 +246,7 @@ button {
 .product-foto {
   margin-bottom: 22px;
 }
-.product-title-h3 {
+.product-title-minor {
   font-weight: 400;
   font-size: 13px;
   line-height: 1.7;
@@ -363,6 +364,9 @@ button {
   flex-wrap: wrap;
   gap: 25px;
 }
+.team-foto {
+  width: 202px;
+}
 .team-title {
   margin-bottom: 44px;
 }
@@ -386,6 +390,10 @@ button {
   gap: 24px;
   align-items: center;
   padding: 120px 145px;
+}
+.desing-logo{
+  width: 40px;
+  height: 34px;
 }
 .desing-title {
 font-weight: 400;
