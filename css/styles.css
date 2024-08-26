@@ -8,8 +8,6 @@ body {
   background-color: #ffffff;
 }
 
-/* reset */
-
 ul,
 ol {
   list-style-type: none;
@@ -64,8 +62,7 @@ button {
 }
 .nav-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .nav-list {
   display: flex;
@@ -98,7 +95,7 @@ button {
   color: #000;
 }
 .nav-link-logo {
-  padding: 29px 160px;
+  padding: 29px 0;
   margin: auto;
 }
 .nav-address-logo {
@@ -150,7 +147,6 @@ button {
   margin-bottom: 120px;
 }
 .about-desing {
-  width: 580px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -194,7 +190,8 @@ button {
 }
 .about-img {
   margin-bottom: 51px;
-  width: 657px;
+  max-width: 657px;
+  width: 100%;
 }
 .about-title-minor {
   font-weight: 400;
@@ -338,7 +335,7 @@ button {
   align-items: center;
   margin-bottom: 80px;
 }
-.team-title {
+.team-title-top {
   font-weight: 400;
   font-size: 34px;
   line-height: 1.06;
@@ -352,7 +349,8 @@ button {
   letter-spacing: 0.05em;
   text-align: center;
   color: #a0a0a0;
-  width: 789px;
+  max-width: 789px;
+  width: 100%;
 }
 .team-picture {
   margin-bottom: 100px;
@@ -362,12 +360,21 @@ button {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  /*gap: 25px;*/
 }
 .team-foto {
-  width: 202px;
+  max-width: 202px;
+  margin-right: 25px;
+}
+.team-foto:nth-child(6n) {
+  margin-right: 0;
 }
 .team-title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.06;
+  text-align: center;
+  color: #000;
   margin-bottom: 44px;
 }
 .team-link {
@@ -389,18 +396,18 @@ button {
   flex-direction: column;
   gap: 24px;
   align-items: center;
-  padding: 120px 145px;
+  padding: 120px 0;
 }
-.desing-logo{
+.desing-logo {
   width: 40px;
   height: 34px;
 }
 .desing-title {
-font-weight: 400;
-font-size: 43px;
-line-height: 1.34884;
-text-align: center;
-color: #fff;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 1.34884;
+  text-align: center;
+  color: #fff;
 }
 .desing-text {
   font-weight: 400;
@@ -408,28 +415,27 @@ color: #fff;
   line-height: 1.8;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #fff;  
+  color: #fff;
 }
 .information {
   width: 100%;
 }
 .information-container {
   display: flex;
-  margin: 0 37px  81px 63px;
+  margin: 0 37px 81px 63px;
 }
 .information-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 170px;
+  max-width: 170px;
+  width: 100%;
   margin-right: 12px;
-
 }
 .information-items {
-font-weight: 400;
-font-size: 22px;
-line-height: 1.10;
-
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.1;
 }
 .information-link {
   color: #000;
@@ -438,14 +444,12 @@ line-height: 1.10;
   display: flex;
   flex-direction: column;
   gap: 23px;
-
 }
 .information-footer {
   font-weight: 400;
-  font-size: 22px; 
-  line-height: 1.09091;
+  font-size: 22px;
+  line-height: 1.1;
   color: #000;
-
 }
 .information-text {
   width: 348px;
@@ -453,28 +457,29 @@ line-height: 1.10;
   font-size: 14px;
   letter-spacing: 0.06em;
   color: #a0a0a0;
+  margin-bottom: 48px;
 }
 .information-input {
-  visibility: hidden;
-  border-radius: none;
-  background-color: transparent;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid black;
 }
 .information-line {
   background-color: #000;
   width: 320px;
   height: 1px;
 }
-.information-form-link{
+.information-form-link {
   width: 82px;
   height: 82px;
   background-color: #000;
   margin-left: auto;
   font-weight: 400;
-  font-size: 15px; 
+  font-size: 15px;
   line-height: 1.07;
   letter-spacing: 0.05em;
   text-align: center;
-  color: #fff;   
+  color: #fff;
   padding-top: 22px;
   display: flex;
   flex-direction: column;
@@ -491,16 +496,15 @@ line-height: 1.10;
   margin-bottom: 20px;
 }
 .information-footer-items {
-font-weight: 400;
-font-size: 13px;
-letter-spacing: 0.06em;
-text-align: right;
-
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-align: right;
 }
 .information-footer-link:hover,
 .information-footer-link:focus {
   color: #000;
 }
-.information-footer-link{
+.information-footer-link {
   color: #707a7f;
-} 
+}
