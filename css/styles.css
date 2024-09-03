@@ -228,6 +228,12 @@ button {
   text-align: center;
   color: #a0a0a0;
 }
+.product-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
 .product-icon {
   fill: black;
   margin-bottom: 19px;
@@ -352,22 +358,17 @@ button {
   max-width: 789px;
   width: 100%;
 }
-.team-picture {
-  margin-bottom: 100px;
-  padding-right: 37px;
+.grid-container {
+  padding-right: 12px;
   padding-left: 37px;
+  display: grid;
+  grid-template-columns: repeat(6, 4fr);
+  justify-content: center;
+  margin-bottom: 100px;
 }
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-  /*gap: 25px;*/
-}
-.team-foto {
+.grid-team-foto {
   max-width: 202px;
-  margin-right: 25px;
-}
-.team-foto:nth-child(6n) {
-  margin-right: 0;
+  margin-bottom: 25px;
 }
 .team-title {
   font-weight: 400;
