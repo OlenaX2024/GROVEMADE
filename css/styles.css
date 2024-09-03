@@ -235,7 +235,7 @@ button {
   gap: 16px;
 }
 .product-icon {
-  fill: black;
+  background-color: black;
   margin-bottom: 19px;
 }
 .product-shop {
